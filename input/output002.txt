@@ -1,0 +1,51 @@
+DEPENDS   IRC TCPIP NIC
+SUPPORTS NIC TCPIP
+DEPENDS TCPIP IRC
+IRC depends on TCPIP. Ignoring command.
+DEPENDS SCP TCPIP NIC
+DEPENDS  BROWSER   TCPIP  HTML
+SUPPORTS TCPIP TELNET
+INSTALL NIC
+Installing NIC
+INSTALL   TELNET
+Installing TCPIP
+Installing TELNET
+INSTALL Xyz
+Installing Xyz
+REMOVE NIC
+NIC is still needed.
+INSTALL BROWSER
+Installing HTML
+Installing BROWSER
+INSTALL SCP
+Installing SCP
+LIST
+BROWSER
+HTML
+NIC
+SCP
+TCPIP
+TELNET
+Xyz
+REMOVE TELNET
+Removing TELNET
+REMOVE NIC
+NIC is still needed.
+REMOVE SCP
+Removing SCP
+INSTALL NIC
+NIC already installed.
+REMOVE TCPIP
+TCPIP still needed.
+REMOVE IRC
+IRC is not installed.
+REMOVE   BROWSER
+Removing BROWSER
+Removing HTML
+Removing TCPIP
+REMOVE TCPIP
+TCPIP is not installed.
+LIST
+NIC
+Xyz
+STOP

@@ -1,0 +1,11 @@
+DEPENDS A B C
+INSTALL B
+Installing B
+INSTALL A
+Installing C
+Installing A
+LIST
+B
+C
+A
+STOP
