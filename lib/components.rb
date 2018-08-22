@@ -122,11 +122,10 @@ def do_command(obj, input)
     puts input
   end
 end
-=begin
+
 components = Components.new
 loop do
   input = gets.chomp
   do_command(components, input)
   break if input.chomp! == 'STOP'
 end
-=end
